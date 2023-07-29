@@ -1,6 +1,10 @@
 import React from "react";
-
+import Decrypt from '../../Util/Encription'
+import { useParams } from "react-router-dom";
 export default function Course_details() {
+  const param=useParams()
+  console.log('para',Decrypt.decrypt(param.course_id))
+  
   return (
     <>
       <div className="ed_detail_head">
