@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Course_details() {
   return (
-    <div>
+    <>
       <div className="ed_detail_head">
         <div className="container">
           <div className="row align-items-center">
@@ -135,7 +135,7 @@ export default function Course_details() {
                     >
                       <h6 className="mb-0 accordion_title">
                         <a
-                          href="#"
+                          href="/#"
                           data-toggle="collapse"
                           data-target="#collapseOne"
                           aria-expanded="true"
@@ -196,7 +196,7 @@ export default function Course_details() {
                     >
                       <h6 className="mb-0 accordion_title">
                         <a
-                          href="#"
+                          href="/#"
                           data-toggle="collapse"
                           data-target="#collapseTwo"
                           aria-expanded="false"
@@ -257,7 +257,7 @@ export default function Course_details() {
                     >
                       <h6 className="mb-0 accordion_title">
                         <a
-                          href="#"
+                          href="/#"
                           data-toggle="collapse"
                           data-target="#collapseThree"
                           aria-expanded="false"
@@ -318,7 +318,7 @@ export default function Course_details() {
                     >
                       <h6 className="mb-0 accordion_title">
                         <a
-                          href="#"
+                          href="/#"
                           data-toggle="collapse"
                           data-target="#collapseFour"
                           aria-expanded="false"
@@ -442,13 +442,13 @@ export default function Course_details() {
 
               <div className="single_instructor">
                 <div className="single_instructor_thumb">
-                  <a href="#">
+                  <a href="/#">
                     <img src="assets/img/user-3.jpg" className="img-fluid" alt="" />
                   </a>
                 </div>
                 <div className="single_instructor_caption">
                   <h4>
-                    <a href="#">Jonathan Campbell</a>
+                    <a href="/#">Jonathan Campbell</a>
                   </h4>
                   <ul className="instructor_info">
                     <li>
@@ -468,22 +468,22 @@ export default function Course_details() {
                   </p>
                   <ul className="social_info">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="ti-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="ti-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="ti-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i className="ti-instagram"></i>
                       </a>
                     </li>
@@ -508,7 +508,7 @@ export default function Course_details() {
                     </div>
                     <div className="reviews-comments-item-text">
                       <h4>
-                        <a href="#">Josaph Manrty</a>
+                        <a href="/#">Josaph Manrty</a>
                         <span className="reviews-comments-item-date">
                           <i className="ti-calendar theme-cl"></i>27 Oct 2019
                         </span>
@@ -530,13 +530,13 @@ export default function Course_details() {
                         sollicitudin mauris. "
                       </p>
                       <div className="pull-left reviews-reaction">
-                        <a href="#" className="comment-like active">
+                        <a href="/#" className="comment-like active">
                           <i className="ti-thumb-up"></i> 12
                         </a>
-                        <a href="#" className="comment-dislike active">
+                        <a href="/#" className="comment-dislike active">
                           <i className="ti-thumb-down"></i> 1
                         </a>
-                        <a href="#" className="comment-love active">
+                        <a href="/#" className="comment-love active">
                           <i className="ti-heart"></i> 07
                         </a>
                       </div>
@@ -546,14 +546,14 @@ export default function Course_details() {
                   <div className="reviews-comments-item">
                     <div className="review-comments-avatar">
                       <img
-                        src="assets/img/user-2.jpg"
+                        src="../../assets/img/user-2.jpg"
                         className="img-fluid"
                         alt=""
                       />
                     </div>
                     <div className="reviews-comments-item-text">
                       <h4>
-                        <a href="#">Rita Chawla</a>
+                        <a href="/#">Rita Chawla</a>
                         <span className="reviews-comments-item-date">
                           <i className="ti-calendar theme-cl"></i>2 Nov May 2019
                         </span>
@@ -575,13 +575,13 @@ export default function Course_details() {
                         sollicitudin mauris. "
                       </p>
                       <div className="pull-left reviews-reaction">
-                        <a href="#" className="comment-like active">
+                        <a href="/#" className="comment-like active">
                           <i className="ti-thumb-up"></i> 12
                         </a>
-                        <a href="#" className="comment-dislike active">
+                        <a href="/#" className="comment-dislike active">
                           <i className="ti-thumb-down"></i> 1
                         </a>
-                        <a href="#" className="comment-love active">
+                        <a href="/#" className="comment-love active">
                           <i className="ti-heart"></i> 07
                         </a>
                       </div>
@@ -598,7 +598,7 @@ export default function Course_details() {
                     </div>
                     <div className="reviews-comments-item-text">
                       <h4>
-                        <a href="#">Adam Wilsom</a>
+                        <a href="/#">Adam Wilsom</a>
                         <span className="reviews-comments-item-date">
                           <i className="ti-calendar theme-cl"></i>10 Nov 2019
                         </span>
@@ -620,13 +620,13 @@ export default function Course_details() {
                         sollicitudin mauris. "
                       </p>
                       <div className="pull-left reviews-reaction">
-                        <a href="#" className="comment-like active">
+                        <a href="/#" className="comment-like active">
                           <i className="ti-thumb-up"></i> 12
                         </a>
-                        <a href="#" className="comment-dislike active">
+                        <a href="/#" className="comment-dislike active">
                           <i className="ti-thumb-down"></i> 1
                         </a>
-                        <a href="#" className="comment-love active">
+                        <a href="/#" className="comment-love active">
                           <i className="ti-heart"></i> 07
                         </a>
                       </div>
@@ -726,7 +726,7 @@ export default function Course_details() {
                   </ul>
                 </div>
                 <div className="ed_view_link">
-                  <a href="#" className="btn btn-theme enroll-btn">
+                  <a href="/#" className="btn btn-theme enroll-btn">
                     Enroll Now<i className="ti-angle-right"></i>
                   </a>
                 </div>
@@ -763,6 +763,6 @@ export default function Course_details() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

@@ -484,16 +484,16 @@ $(function() {
 	});
 		
 	
-	// Select Job category
-	$('#c-category').select2({
-		placeholder: "Choose Category",
-		allowClear: true
-	});
+	// // Select Job category
+	// $('#c-category').select2({
+	// 	placeholder: "Choose Category",
+	// 	allowClear: true
+	// });
 	
-	// country
-	$('#country').select2({
-		placeholder: "Choose Country",
-		allowClear: true
-	});
+	// // country
+	// $('#country').select2({
+	// 	placeholder: "Choose Country",
+	// 	allowClear: true
+	// });
 	
 });

@@ -1,8 +1,7 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
 export default function Contact() {
   return (
-    <div>
+    <>
       <section className="page-title">
         <div className="container">
           <div className="row">
@@ -12,7 +11,7 @@ export default function Contact() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <a href="/#">Home</a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Contact
@@ -127,6 +126,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

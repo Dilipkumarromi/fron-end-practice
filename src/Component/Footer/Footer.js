@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <>
       <footer className="dark-footer skin-dark-footer">
         <div>
           <div className="container">
@@ -49,19 +49,19 @@ export default function Footer() {
                   <h4 className="widget-title">New Categories</h4>
                   <ul className="footer-menu">
                     <li>
-                      <a href="#">Designing</a>
+                      <a href="/#">Designing</a>
                     </li>
                     <li>
-                      <a href="#">Nusiness</a>
+                      <a href="/#">Nusiness</a>
                     </li>
                     <li>
-                      <a href="#">Software</a>
+                      <a href="/#">Software</a>
                     </li>
                     <li>
-                      <a href="#">WordPress</a>
+                      <a href="/#">WordPress</a>
                     </li>
                     <li>
-                      <a href="#">PHP</a>
+                      <a href="/#">PHP</a>
                     </li>
                   </ul>
                 </div>
@@ -72,19 +72,19 @@ export default function Footer() {
                   <h4 className="widget-title">Help & Support</h4>
                   <ul className="footer-menu">
                     <li>
-                      <a href="#">Documentation</a>
+                      <a href="/#">Documentation</a>
                     </li>
                     <li>
-                      <a href="#">Live Chat</a>
+                      <a href="/#">Live Chat</a>
                     </li>
                     <li>
-                      <a href="#">Mail Us</a>
+                      <a href="/#">Mail Us</a>
                     </li>
                     <li>
-                      <a href="#">Privacy</a>
+                      <a href="/#">Privacy</a>
                     </li>
                     <li>
-                      <a href="#">Faqs</a>
+                      <a href="/#">Faqs</a>
                     </li>
                   </ul>
                 </div>
@@ -93,7 +93,7 @@ export default function Footer() {
               <div className="col-lg-3 col-md-12">
                 <div className="footer-widget">
                   <h4 className="widget-title">Download Apps</h4>
-                  <a href="#" className="other-store-link">
+                  <a href="/#" className="other-store-link">
                     <div className="other-store-app">
                       <div className="os-app-icon">
                         <i className="lni-playstore theme-cl"></i>
@@ -104,7 +104,7 @@ export default function Footer() {
                       </div>
                     </div>
                   </a>
-                  <a href="#" className="other-store-link">
+                  <a href="/#" className="other-store-link">
                     <div className="other-store-app">
                       <div className="os-app-icon">
                         <i className="lni-apple theme-cl"></i>
@@ -134,22 +134,22 @@ export default function Footer() {
               <div className="col-lg-6 col-md-6 text-right">
                 <ul className="footer-bottom-social">
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <i className="ti-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <i className="ti-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <i className="ti-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/#">
                       <i className="ti-linkedin"></i>
                     </a>
                   </li>
@@ -159,6 +159,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
