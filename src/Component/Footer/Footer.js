@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="dark-footer skin-dark-footer">
+      {/* <footer className="dark-footer skin-dark-footer">
         <div>
           <div className="container">
             <div className="row">
@@ -158,7 +158,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

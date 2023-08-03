@@ -42,7 +42,7 @@ export default  function Courses() {
                 <div className="education_block_grid style_2">
                   <div className="education_block_thumb n-shadow">
                  
-                    <Link to={"/course-details/"+  Encriptions.encrypt(courseList.id.toString()) }>
+                    <Link to={"/course-details/"+Encriptions.encrypt(courseList.id) }>
                       <img src={IMG_UR+courseList?.images
 ?.images_url} className="img-fluid" alt="" crossOrigin="anonymous" style={{width:'100%',height:'70%'}}/>
                     </Link>

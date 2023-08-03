@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './assets/css/styles.css';
-import './assets/css/colors.css';
+import './assets/css/colors.css'; 
 import App from './App';
 import {BrowserRouter} from 'react-router-dom'
 
